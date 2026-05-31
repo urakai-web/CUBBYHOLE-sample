@@ -90,7 +90,5 @@ export const storeData = {
   gallery: [
     { label: '店内の様子', image: '/images/hero.jpg' },
     { label: 'お店の外観', image: '/images/about.jpg' },
-    { label: '入口・外観', image: '/images/about.jpg' },
-    { label: 'カフェの雰囲気', image: '/images/hero.jpg' },
   ],
 }
