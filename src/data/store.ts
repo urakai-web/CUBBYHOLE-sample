@@ -86,23 +86,11 @@ export const storeData = {
       category: 'フード',
       image: '/images/menu/menu4.jpg',
     },
-    {
-      name: 'メニュー名5',
-      description: 'メニューの説明文をここに入力してください。',
-      category: 'スイーツ',
-      image: '',
-    },
-    {
-      name: 'メニュー名6',
-      description: 'メニューの説明文をここに入力してください。',
-      category: 'ドリンク',
-      image: '',
-    },
   ],
   gallery: [
-    { label: '店内の様子', image: '/images/gallery/gallery1.jpg' },
-    { label: 'お席のご紹介', image: '/images/gallery/gallery2.jpg' },
-    { label: 'フードメニュー', image: '/images/gallery/gallery3.jpg' },
-    { label: 'ドリンクメニュー', image: '/images/gallery/gallery4.jpg' },
+    { label: '店内の様子', image: '/images/hero.jpg' },
+    { label: 'お店の外観', image: '/images/about.jpg' },
+    { label: '入口・外観', image: '/images/about.jpg' },
+    { label: 'カフェの雰囲気', image: '/images/hero.jpg' },
   ],
 }
