@@ -5,7 +5,7 @@ export const storeData = {
   description:
     '尾山神社近くにある、おしゃれな隠れ家カフェ。\n朝の一杯にも、街歩きの休憩にもおすすめです。',
   address: '〒000-0000 住所は入力予定',
-  addressMapQuery: '尾山神社 金沢',
+  addressMapQuery: 'CUBBY HOLE 金沢',
   phone: '000-000-0000',
   businessHours: [
     { day: 'モーニング', time: '00:00 〜 00:00', lastOrder: '00:00' },

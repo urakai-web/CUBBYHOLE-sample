@@ -58,7 +58,7 @@ export default function MapSection() {
           <div className="md:col-span-3">
             <div className="rounded-lg overflow-hidden shadow-md border border-stone-200 h-80 md:h-96">
               <iframe
-                src="https://maps.google.com/maps?q=36.5636,136.6558&z=17&output=embed&hl=ja"
+                src="https://maps.google.com/maps?q=36.5666957,136.6546317&z=17&output=embed&hl=ja"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
