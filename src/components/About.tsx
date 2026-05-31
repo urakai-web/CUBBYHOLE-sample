@@ -1,11 +1,6 @@
 import { storeData } from '../data/store'
 
 const ABOUT_HEADING = '尾山神社そばの隠れ家カフェ'
-const ABOUT_STATS = [
-  { value: '??', unit: '時〜', label: 'モーニング営業' },
-  { value: '??', unit: '種以上', label: '豊富なドリンク' },
-  { value: '??', unit: '席', label: '店内総席数' },
-]
 
 export default function About() {
   return (
@@ -21,17 +16,6 @@ export default function About() {
             <div className="space-y-4 text-stone-600 leading-relaxed">
               {storeData.description.split('\n').map((line, i) => (
                 <p key={i}>{line}</p>
-              ))}
-            </div>
-            <div className="mt-8 grid grid-cols-3 gap-4 text-center">
-              {ABOUT_STATS.map((stat) => (
-                <div key={stat.label} className="bg-white rounded-lg p-4 shadow-sm border border-stone-100">
-                  <div className="text-xl font-bold font-serif text-primary-700 leading-tight">
-                    {stat.value}
-                    <span className="text-xs ml-0.5">{stat.unit}</span>
-                  </div>
-                  <div className="text-xs text-stone-500 mt-1 leading-snug">{stat.label}</div>
-                </div>
               ))}
             </div>
           </div>
